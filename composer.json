@@ -39,11 +39,12 @@
         "eluceo/ical": "dev-master#9b56d5b44c068f3c8fbd7937a412909b723018a3",
         "robclancy/presenter": "1.0.x",
         "jacobkiers/oauth": "dev-master#1249c0098776cfa688c7925740c617ceed693105",
-        "joshuaestes/feature-toggle": "dev-master#c5bfb654e2e9496a363628079de5a067be62c5e6"
+        "joshuaestes/feature-toggle": "dev-master#c5bfb654e2e9496a363628079de5a067be62c5e6",
+	"twilio/sdk": "3.12.8"
     },
     "require-dev": {
         "codeception/codeception": "dev-master#1b3ccc901a968c8220ef4708869cac6575298ef0",
-        "magento/community-edition": "dev-master#b3d69492524f482c76ea512888ef2fbc1412a3c0"
+        "magento/project-community-edition": "*@dev"
     },
     "autoload": {
         "psr-0": { "": ["library/"] }

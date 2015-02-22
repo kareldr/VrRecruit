@@ -4,31 +4,18 @@ namespace Vreasy\Models;
 
 use Vreasy\Query\Builder;
 
-class Task extends Base
+class Taskstate extends Base
 {
     // Protected attributes should match table columns
     protected $id;
-    protected $deadline;
-    protected $assigned_name;
-    protected $assigned_phone;
-    protected $created_at;
-    protected $updated_at;
-    protected $id_state;
+    protected $state;
 
     public function __construct()
     {
         // Validation is done run by Valitron library
         $this->validates(
             'required',
-            ['deadline', 'assigned_name', 'assigned_phone']
-        );
-        $this->validates(
-            'date',
-            ['created_at', 'updated_at']
-        );
-        $this->validates(
-            'integer',
-            ['id']
+            ['state']
         );
     }
 
@@ -36,14 +23,12 @@ class Task extends Base
     {
         // Base class forward all static:: method calls directly to Zend_Db
         if ($this->isValid()) {
-            $this->updated_at = gmdate(DATE_FORMAT);
             if ($this->isNew()) {
-                $this->created_at = $this->updated_at;
-                static::insert('tasks', $this->attributesForDb());
+                static::insert('taskstates', $this->attributesForDb());
                 $this->id = static::lastInsertId();
             } else {
                 static::update(
-                    'tasks',
+                    'taskstates',
                     $this->attributesForDb(),
                     ['id = ?' => $this->id]
                 );
@@ -54,11 +39,11 @@ class Task extends Base
 
     public static function findOrInit($id)
     {
-        $task = new Task();
-        if ($tasksFound = static::where(['id' => (int)$id])) {
-            $task = array_pop($tasksFound);
+        $taskstate = new Taskstate();
+        if ($taskstatesFound = static::where(['id' => (int)$id])) {
+            $taskstate = array_pop($taskstatesFound);
         }
-        return $task;
+        return $taskstate;
     }
 
 
@@ -67,7 +52,7 @@ class Task extends Base
         // Default options' values
         $limit = 0;
         $start = 0;
-        $orderBy = ['created_at'];
+        $orderBy = ['id'];
         $orderDirection = ['asc'];
         extract($opts, EXTR_IF_EXISTS);
         $orderBy = array_flatten([$orderBy]);
@@ -81,7 +66,7 @@ class Task extends Base
             ['wildcard' => true, 'prefix' => 't.']);
 
         // Select header
-        $select = "SELECT t.* FROM tasks AS t";
+        $select = "SELECT t.* FROM taskstates AS t";
 
         // Build order by
         foreach ($orderBy as $i => $value) {

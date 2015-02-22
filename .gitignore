@@ -12,6 +12,7 @@ vendor
 *.REMOTE.*
 *.orig
 *.DS_*
+*.swp
 tests/_log/*
 /.settings/org.eclipse.core.resources.prefs
 node_modules/
