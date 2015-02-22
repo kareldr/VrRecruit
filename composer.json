@@ -43,8 +43,7 @@
 	"twilio/sdk": "3.12.8"
     },
     "require-dev": {
-        "codeception/codeception": "dev-master#1b3ccc901a968c8220ef4708869cac6575298ef0",
-        "magento/project-community-edition": "*@dev"
+        "codeception/codeception": "dev-master#1b3ccc901a968c8220ef4708869cac6575298ef0"
     },
     "autoload": {
         "psr-0": { "": ["library/"] }

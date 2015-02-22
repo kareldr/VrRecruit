@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d3e29813b9c886abd6bcc693984e9e0e",
+    "hash": "b0bbbfda08fe362faf0ff6ffd1e084f7",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -632,9 +632,9 @@
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.4",
-                "symfony/options-resolver": "~2.3.0",
-                "symfony/yaml": "~2.3.0"
+                "doctrine/common": ">=2.4",
+                "symfony/options-resolver": ">=2.3",
+                "symfony/yaml": ">=2.3"
             },
             "require-dev": {
                 "phing/phing": "*",
@@ -672,250 +672,6 @@
                 "toggle"
             ],
             "time": "2013-11-08 16:16:07"
-        },
-        {
-            "name": "magento/project-community-edition",
-            "version": "0.1.0-alpha107",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magento/magento2.git",
-                "reference": "6c51ba03930c5854ab473cc48f8bd993816c1753"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento2/zipball/6c51ba03930c5854ab473cc48f8bd993816c1753",
-                "reference": "6c51ba03930c5854ab473cc48f8bd993816c1753",
-                "shasum": ""
-            },
-            "require": {
-                "magento/zendframework1": "1.12.9",
-                "php": "~5.4.11|~5.5.0",
-                "zendframework/zend-code": "2.3.1",
-                "zendframework/zend-server": "2.3.1",
-                "zendframework/zend-soap": "2.3.1",
-                "zendframework/zend-stdlib": "2.3.1",
-                "zendframework/zend-uri": "2.3.1",
-                "zendframework/zend-validator": "2.3.1"
-            },
-            "replace": {
-                "blueimp/jquery-file-upload": "5.6.14",
-                "colinmollenhour/cache-backend-redis": "dev-master#193d377b7fb2e88595578b282fa01a62d1185abc",
-                "colinmollenhour/credis": "dev-master#f07bbfd4117294f462f0fb19c49221d350bf396f",
-                "components/handlebars.js": "1.3.0",
-                "components/jquery": "1.11.0",
-                "components/jqueryui": "1.10.4",
-                "linkorb/jsmin-php": "1.1.2",
-                "magento/framework": "self.version",
-                "magento/language-de_de": "self.version",
-                "magento/language-en_us": "self.version",
-                "magento/language-es_es": "self.version",
-                "magento/language-fr_fr": "self.version",
-                "magento/language-nl_nl": "self.version",
-                "magento/language-pt_br": "self.version",
-                "magento/language-zh_cn": "self.version",
-                "magento/module-admin-notification": "self.version",
-                "magento/module-authorization": "self.version",
-                "magento/module-authorizenet": "self.version",
-                "magento/module-backend": "self.version",
-                "magento/module-backup": "self.version",
-                "magento/module-bundle": "self.version",
-                "magento/module-captcha": "self.version",
-                "magento/module-catalog": "self.version",
-                "magento/module-catalog-import-export": "self.version",
-                "magento/module-catalog-inventory": "self.version",
-                "magento/module-catalog-rule": "self.version",
-                "magento/module-catalog-search": "self.version",
-                "magento/module-catalog-url-rewrite": "self.version",
-                "magento/module-centinel": "self.version",
-                "magento/module-checkout": "self.version",
-                "magento/module-checkout-agreements": "self.version",
-                "magento/module-cms": "self.version",
-                "magento/module-cms-url-rewrite": "self.version",
-                "magento/module-configurable-import-export": "self.version",
-                "magento/module-configurable-product": "self.version",
-                "magento/module-contact": "self.version",
-                "magento/module-core": "self.version",
-                "magento/module-cron": "self.version",
-                "magento/module-currency-symbol": "self.version",
-                "magento/module-customer": "self.version",
-                "magento/module-customer-import-export": "self.version",
-                "magento/module-design-editor": "self.version",
-                "magento/module-dhl": "self.version",
-                "magento/module-directory": "self.version",
-                "magento/module-downloadable": "self.version",
-                "magento/module-eav": "self.version",
-                "magento/module-email": "self.version",
-                "magento/module-fedex": "self.version",
-                "magento/module-gift-message": "self.version",
-                "magento/module-google-adwords": "self.version",
-                "magento/module-google-analytics": "self.version",
-                "magento/module-google-optimizer": "self.version",
-                "magento/module-google-shopping": "self.version",
-                "magento/module-grouped-import-export": "self.version",
-                "magento/module-grouped-product": "self.version",
-                "magento/module-import-export": "self.version",
-                "magento/module-indexer": "self.version",
-                "magento/module-integration": "self.version",
-                "magento/module-layered-navigation": "self.version",
-                "magento/module-log": "self.version",
-                "magento/module-msrp": "self.version",
-                "magento/module-multishipping": "self.version",
-                "magento/module-newsletter": "self.version",
-                "magento/module-offline-payments": "self.version",
-                "magento/module-offline-shipping": "self.version",
-                "magento/module-ogone": "self.version",
-                "magento/module-page-cache": "self.version",
-                "magento/module-pay-pal-recurring-payment": "self.version",
-                "magento/module-payment": "self.version",
-                "magento/module-paypal": "self.version",
-                "magento/module-persistent": "self.version",
-                "magento/module-product-alert": "self.version",
-                "magento/module-recurring-payment": "self.version",
-                "magento/module-reports": "self.version",
-                "magento/module-require-js": "self.version",
-                "magento/module-review": "self.version",
-                "magento/module-rss": "self.version",
-                "magento/module-rule": "self.version",
-                "magento/module-sales": "self.version",
-                "magento/module-sales-rule": "self.version",
-                "magento/module-search": "self.version",
-                "magento/module-sendfriend": "self.version",
-                "magento/module-shipping": "self.version",
-                "magento/module-sitemap": "self.version",
-                "magento/module-store": "self.version",
-                "magento/module-tax": "self.version",
-                "magento/module-tax-import-export": "self.version",
-                "magento/module-theme": "self.version",
-                "magento/module-translation": "self.version",
-                "magento/module-ui": "self.version",
-                "magento/module-ups": "self.version",
-                "magento/module-url-rewrite": "self.version",
-                "magento/module-user": "self.version",
-                "magento/module-usps": "self.version",
-                "magento/module-webapi": "self.version",
-                "magento/module-weee": "self.version",
-                "magento/module-widget": "self.version",
-                "magento/module-wishlist": "self.version",
-                "magento/project-setup": "0.1.0",
-                "magento/theme-adminhtml-backend": "self.version",
-                "magento/theme-frontend-blank": "self.version",
-                "magento/theme-frontend-luma": "self.version",
-                "oyejorge/less.php": "1.7.0",
-                "pear/mail_mime-decode": "1.48",
-                "phpseclib/phpseclib": "0.2.1",
-                "symfony/yaml": "2.3.x-dev",
-                "tinymce/tinymce": "3.4.7",
-                "trentrichardson/jquery-timepicker-addon": "1.4.3",
-                "twbs/bootstrap": "3.1.0"
-            },
-            "require-dev": {
-                "phpmd/phpmd": "@stable",
-                "phpunit/phpunit": "4.1.0",
-                "squizlabs/php_codesniffer": "1.5.3"
-            },
-            "type": "project",
-            "extra": {
-                "component_paths": {
-                    "oyejorge/less.php": "lib/internal/Less",
-                    "symfony/yaml": "lib/internal/Symfony/Component/Yaml",
-                    "trentrichardson/jquery-timepicker-addon": "lib/web/jquery/jquery-ui-timepicker-addon.js",
-                    "components/handlebars.js": "lib/web/jquery/handlebars",
-                    "colinmollenhour/cache-backend-redis": "lib/internal/Cm/Cache/Backend/Redis.php",
-                    "colinmollenhour/credis": "lib/internal/Credis",
-                    "linkorb/jsmin-php": "lib/internal/JSMin",
-                    "pear/mail_mime-decode": "lib/internal/PEAR/Mail",
-                    "phpseclib/phpseclib": "lib/internal/phpseclib",
-                    "components/jquery": [
-                        "lib/web/jquery/jquery.js",
-                        "lib/web/jquery/jquery.min.js",
-                        "lib/web/jquery/jquery-migrate.js",
-                        "lib/web/jquery/jquery-migrate.min.js"
-                    ],
-                    "blueimp/jquery-file-upload": "lib/web/jquery/fileUploader",
-                    "components/jqueryui": [
-                        "lib/web/jquery/jquery-ui.js",
-                        "lib/web/jquery/jquery-ui.min.js"
-                    ],
-                    "twbs/bootstrap": [
-                        "lib/web/jquery/jquery.tabs.js",
-                        "lib/web/jquery/jquery.popups.js"
-                    ],
-                    "tinymce/tinymce": "lib/web/tiny_mce"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Magento\\Framework\\": "lib/internal/Magento/Framework/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
-                    "Magento\\Tools\\": "dev/tools/Magento/Tools/",
-                    "Magento\\Tools\\License\\": "dev/build/publication/license/",
-                    "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
-                    "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
-                    "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/",
-                    "Magento\\ToolkitFramework\\": "dev/tools/performance-toolkit/framework/Magento/ToolkitFramework/"
-                }
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Magento project (Community Edition)",
-            "support": {
-                "source": "https://github.com/magento/magento2/tree/0.1.0-alpha107",
-                "issues": "https://github.com/magento/magento2/issues"
-            },
-            "time": "2014-12-05 19:17:31"
-        },
-        {
-            "name": "magento/zendframework1",
-            "version": "1.12.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magento/zf1.git",
-                "reference": "c22ff60d6e49862a51281600aa7a8e58fbc3940f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magento/zf1/zipball/c22ff60d6e49862a51281600aa7a8e58fbc3940f",
-                "reference": "c22ff60d6e49862a51281600aa7a8e58fbc3940f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.11"
-            },
-            "require-dev": {
-                "phpunit/dbunit": "1.3.*",
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.12.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend_": "library/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "library/"
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "Magento Zend Framework 1",
-            "homepage": "http://framework.zend.com/",
-            "keywords": [
-                "ZF1",
-                "framework"
-            ],
-            "time": "2014-11-24 22:50:41"
         },
         {
             "name": "phpactiveresource/phpactiveresource",
@@ -1176,17 +932,17 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v2.3.25",
+            "version": "v2.6.4",
             "target-dir": "Symfony/Component/OptionsResolver",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/OptionsResolver.git",
-                "reference": "659aed8c6b289db9a894440f0d0c70310b0b9275"
+                "reference": "ae68b6c97d26edcdf65eb3c2dd2aee502573e0ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/OptionsResolver/zipball/659aed8c6b289db9a894440f0d0c70310b0b9275",
-                "reference": "659aed8c6b289db9a894440f0d0c70310b0b9275",
+                "url": "https://api.github.com/repos/symfony/OptionsResolver/zipball/ae68b6c97d26edcdf65eb3c2dd2aee502573e0ec",
+                "reference": "ae68b6c97d26edcdf65eb3c2dd2aee502573e0ec",
                 "shasum": ""
             },
             "require": {
@@ -1195,7 +951,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -1224,7 +980,7 @@
                 "configuration",
                 "options"
             ],
-            "time": "2015-01-01 12:56:52"
+            "time": "2015-01-08 13:00:41"
         },
         {
             "name": "symfony/property-access",
@@ -1282,6 +1038,53 @@
                 "property path",
                 "reflection"
             ],
+            "time": "2015-01-25 04:39:26"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.6.4",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/60ed7751671113cf1ee7d7778e691642c2e9acd8",
+                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
             "time": "2015-01-25 04:39:26"
         },
         {
@@ -1444,382 +1247,6 @@
                 "statemachine"
             ],
             "time": "2013-12-12 11:54:12"
-        },
-        {
-            "name": "zendframework/zend-code",
-            "version": "2.3.1",
-            "target-dir": "Zend/Code",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendCode.git",
-                "reference": "3e7cc92f946c23fb28959457fa0608c5eba29ed8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendCode/zipball/3e7cc92f946c23fb28959457fa0608c5eba29ed8",
-                "reference": "3e7cc92f946c23fb28959457fa0608c5eba29ed8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-eventmanager": "self.version"
-            },
-            "require-dev": {
-                "doctrine/common": ">=2.1",
-                "zendframework/zend-stdlib": "self.version"
-            },
-            "suggest": {
-                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
-                "zendframework/zend-stdlib": "Zend\\Stdlib component"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Code\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "provides facilities to generate arbitrary code using an object oriented interface",
-            "keywords": [
-                "code",
-                "zf2"
-            ],
-            "time": "2014-04-15 15:28:49"
-        },
-        {
-            "name": "zendframework/zend-escaper",
-            "version": "2.3.1",
-            "target-dir": "Zend/Escaper",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendEscaper.git",
-                "reference": "dddee2104337bbf3522f9ef591c361a40aabf7cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendEscaper/zipball/dddee2104337bbf3522f9ef591c361a40aabf7cc",
-                "reference": "dddee2104337bbf3522f9ef591c361a40aabf7cc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Escaper\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "keywords": [
-                "escaper",
-                "zf2"
-            ],
-            "time": "2014-04-15 15:29:16"
-        },
-        {
-            "name": "zendframework/zend-eventmanager",
-            "version": "2.3.1",
-            "target-dir": "Zend/EventManager",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendEventManager.git",
-                "reference": "957faa0580c40ef6bf6cf3e87a36d594042fe133"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendEventManager/zipball/957faa0580c40ef6bf6cf3e87a36d594042fe133",
-                "reference": "957faa0580c40ef6bf6cf3e87a36d594042fe133",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-stdlib": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\EventManager\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "keywords": [
-                "eventmanager",
-                "zf2"
-            ],
-            "time": "2014-04-15 14:47:18"
-        },
-        {
-            "name": "zendframework/zend-server",
-            "version": "2.3.1",
-            "target-dir": "Zend/Server",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendServer.git",
-                "reference": "b491a401b1710785b5dbf69e77ee2f13764fb0ff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendServer/zipball/b491a401b1710785b5dbf69e77ee2f13764fb0ff",
-                "reference": "b491a401b1710785b5dbf69e77ee2f13764fb0ff",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-code": "self.version",
-                "zendframework/zend-stdlib": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Server\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "keywords": [
-                "server",
-                "zf2"
-            ],
-            "time": "2014-04-15 14:47:18"
-        },
-        {
-            "name": "zendframework/zend-soap",
-            "version": "2.3.1",
-            "target-dir": "Zend/Soap",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendSoap.git",
-                "reference": "29b7dfe2b2d1fcf219557ff8821506a55510a53d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendSoap/zipball/29b7dfe2b2d1fcf219557ff8821506a55510a53d",
-                "reference": "29b7dfe2b2d1fcf219557ff8821506a55510a53d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-server": "self.version",
-                "zendframework/zend-stdlib": "self.version",
-                "zendframework/zend-uri": "self.version"
-            },
-            "require-dev": {
-                "zendframework/zend-http": "self.version"
-            },
-            "suggest": {
-                "zendframework/zend-http": "Zend\\Http component"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Soap\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "keywords": [
-                "soap",
-                "zf2"
-            ],
-            "time": "2014-04-15 14:47:18"
-        },
-        {
-            "name": "zendframework/zend-stdlib",
-            "version": "2.3.1",
-            "target-dir": "Zend/Stdlib",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendStdlib.git",
-                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
-                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23"
-            },
-            "require-dev": {
-                "zendframework/zend-eventmanager": "self.version",
-                "zendframework/zend-serializer": "self.version",
-                "zendframework/zend-servicemanager": "self.version"
-            },
-            "suggest": {
-                "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
-                "zendframework/zend-serializer": "Zend\\Serializer component",
-                "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Stdlib\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "keywords": [
-                "stdlib",
-                "zf2"
-            ],
-            "time": "2014-04-15 15:28:48"
-        },
-        {
-            "name": "zendframework/zend-uri",
-            "version": "2.3.1",
-            "target-dir": "Zend/Uri",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendUri.git",
-                "reference": "cf120804a7ef1b906979b110c6f34c8592a7c36b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendUri/zipball/cf120804a7ef1b906979b110c6f34c8592a7c36b",
-                "reference": "cf120804a7ef1b906979b110c6f34c8592a7c36b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-escaper": "self.version",
-                "zendframework/zend-validator": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Uri\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "a component that aids in manipulating and validating » Uniform Resource Identifiers (URIs)",
-            "keywords": [
-                "uri",
-                "zf2"
-            ],
-            "time": "2014-04-15 14:47:18"
-        },
-        {
-            "name": "zendframework/zend-validator",
-            "version": "2.3.1",
-            "target-dir": "Zend/Validator",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zendframework/Component_ZendValidator.git",
-                "reference": "ac9848e54c6c75de81ee7a82c3187cd25a898990"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/Component_ZendValidator/zipball/ac9848e54c6c75de81ee7a82c3187cd25a898990",
-                "reference": "ac9848e54c6c75de81ee7a82c3187cd25a898990",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.23",
-                "zendframework/zend-stdlib": "self.version"
-            },
-            "require-dev": {
-                "zendframework/zend-db": "self.version",
-                "zendframework/zend-filter": "self.version",
-                "zendframework/zend-i18n": "self.version",
-                "zendframework/zend-math": "self.version",
-                "zendframework/zend-servicemanager": "self.version",
-                "zendframework/zend-session": "self.version",
-                "zendframework/zend-uri": "self.version"
-            },
-            "suggest": {
-                "zendframework/zend-db": "Zend\\Db component",
-                "zendframework/zend-filter": "Zend\\Filter component, required by the Digits validator",
-                "zendframework/zend-i18n": "Zend\\I18n component to allow translation of validation error messages as well as to use the various Date validators",
-                "zendframework/zend-math": "Zend\\Math component",
-                "zendframework/zend-resources": "Translations of validator messages",
-                "zendframework/zend-servicemanager": "Zend\\ServiceManager component to allow using the ValidatorPluginManager and validator chains",
-                "zendframework/zend-session": "Zend\\Session component",
-                "zendframework/zend-uri": "Zend\\Uri component, required by the Uri and Sitemap\\Loc validators"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev",
-                    "dev-develop": "2.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Zend\\Validator\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "description": "provides a set of commonly needed validators",
-            "keywords": [
-                "validator",
-                "zf2"
-            ],
-            "time": "2014-04-15 15:28:42"
         },
         {
             "name": "zendframework/zendframework1",
@@ -2316,6 +1743,53 @@
                 "webtest"
             ],
             "time": "2013-10-04 15:03:51"
+        },
+        {
+            "name": "magento/zendframework1",
+            "version": "1.12.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento/zf1.git",
+                "reference": "c22ff60d6e49862a51281600aa7a8e58fbc3940f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento/zf1/zipball/c22ff60d6e49862a51281600aa7a8e58fbc3940f",
+                "reference": "c22ff60d6e49862a51281600aa7a8e58fbc3940f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "1.3.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Magento Zend Framework 1",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework"
+            ],
+            "time": "2014-11-24 22:50:41"
         },
         {
             "name": "monolog/monolog",
@@ -3102,6 +2576,382 @@
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
             "time": "2015-01-25 04:39:26"
+        },
+        {
+            "name": "zendframework/zend-code",
+            "version": "2.3.1",
+            "target-dir": "Zend/Code",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendCode.git",
+                "reference": "3e7cc92f946c23fb28959457fa0608c5eba29ed8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendCode/zipball/3e7cc92f946c23fb28959457fa0608c5eba29ed8",
+                "reference": "3e7cc92f946c23fb28959457fa0608c5eba29ed8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-eventmanager": "self.version"
+            },
+            "require-dev": {
+                "doctrine/common": ">=2.1",
+                "zendframework/zend-stdlib": "self.version"
+            },
+            "suggest": {
+                "doctrine/common": "Doctrine\\Common >=2.1 for annotation features",
+                "zendframework/zend-stdlib": "Zend\\Stdlib component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Code\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "provides facilities to generate arbitrary code using an object oriented interface",
+            "keywords": [
+                "code",
+                "zf2"
+            ],
+            "time": "2014-04-15 15:28:49"
+        },
+        {
+            "name": "zendframework/zend-escaper",
+            "version": "2.3.1",
+            "target-dir": "Zend/Escaper",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendEscaper.git",
+                "reference": "dddee2104337bbf3522f9ef591c361a40aabf7cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendEscaper/zipball/dddee2104337bbf3522f9ef591c361a40aabf7cc",
+                "reference": "dddee2104337bbf3522f9ef591c361a40aabf7cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Escaper\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "keywords": [
+                "escaper",
+                "zf2"
+            ],
+            "time": "2014-04-15 15:29:16"
+        },
+        {
+            "name": "zendframework/zend-eventmanager",
+            "version": "2.3.1",
+            "target-dir": "Zend/EventManager",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendEventManager.git",
+                "reference": "957faa0580c40ef6bf6cf3e87a36d594042fe133"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendEventManager/zipball/957faa0580c40ef6bf6cf3e87a36d594042fe133",
+                "reference": "957faa0580c40ef6bf6cf3e87a36d594042fe133",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-stdlib": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\EventManager\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "keywords": [
+                "eventmanager",
+                "zf2"
+            ],
+            "time": "2014-04-15 14:47:18"
+        },
+        {
+            "name": "zendframework/zend-server",
+            "version": "2.3.1",
+            "target-dir": "Zend/Server",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendServer.git",
+                "reference": "b491a401b1710785b5dbf69e77ee2f13764fb0ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendServer/zipball/b491a401b1710785b5dbf69e77ee2f13764fb0ff",
+                "reference": "b491a401b1710785b5dbf69e77ee2f13764fb0ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-code": "self.version",
+                "zendframework/zend-stdlib": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Server\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "keywords": [
+                "server",
+                "zf2"
+            ],
+            "time": "2014-04-15 14:47:18"
+        },
+        {
+            "name": "zendframework/zend-soap",
+            "version": "2.3.1",
+            "target-dir": "Zend/Soap",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendSoap.git",
+                "reference": "29b7dfe2b2d1fcf219557ff8821506a55510a53d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendSoap/zipball/29b7dfe2b2d1fcf219557ff8821506a55510a53d",
+                "reference": "29b7dfe2b2d1fcf219557ff8821506a55510a53d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-server": "self.version",
+                "zendframework/zend-stdlib": "self.version",
+                "zendframework/zend-uri": "self.version"
+            },
+            "require-dev": {
+                "zendframework/zend-http": "self.version"
+            },
+            "suggest": {
+                "zendframework/zend-http": "Zend\\Http component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Soap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "keywords": [
+                "soap",
+                "zf2"
+            ],
+            "time": "2014-04-15 14:47:18"
+        },
+        {
+            "name": "zendframework/zend-stdlib",
+            "version": "2.3.1",
+            "target-dir": "Zend/Stdlib",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendStdlib.git",
+                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendStdlib/zipball/c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
+                "reference": "c1f4830018b5d4f034d32fa01a9e17ea176f56f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23"
+            },
+            "require-dev": {
+                "zendframework/zend-eventmanager": "self.version",
+                "zendframework/zend-serializer": "self.version",
+                "zendframework/zend-servicemanager": "self.version"
+            },
+            "suggest": {
+                "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
+                "zendframework/zend-serializer": "Zend\\Serializer component",
+                "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Stdlib\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "keywords": [
+                "stdlib",
+                "zf2"
+            ],
+            "time": "2014-04-15 15:28:48"
+        },
+        {
+            "name": "zendframework/zend-uri",
+            "version": "2.3.1",
+            "target-dir": "Zend/Uri",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendUri.git",
+                "reference": "cf120804a7ef1b906979b110c6f34c8592a7c36b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendUri/zipball/cf120804a7ef1b906979b110c6f34c8592a7c36b",
+                "reference": "cf120804a7ef1b906979b110c6f34c8592a7c36b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-escaper": "self.version",
+                "zendframework/zend-validator": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Uri\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "a component that aids in manipulating and validating » Uniform Resource Identifiers (URIs)",
+            "keywords": [
+                "uri",
+                "zf2"
+            ],
+            "time": "2014-04-15 14:47:18"
+        },
+        {
+            "name": "zendframework/zend-validator",
+            "version": "2.3.1",
+            "target-dir": "Zend/Validator",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/Component_ZendValidator.git",
+                "reference": "ac9848e54c6c75de81ee7a82c3187cd25a898990"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/Component_ZendValidator/zipball/ac9848e54c6c75de81ee7a82c3187cd25a898990",
+                "reference": "ac9848e54c6c75de81ee7a82c3187cd25a898990",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.23",
+                "zendframework/zend-stdlib": "self.version"
+            },
+            "require-dev": {
+                "zendframework/zend-db": "self.version",
+                "zendframework/zend-filter": "self.version",
+                "zendframework/zend-i18n": "self.version",
+                "zendframework/zend-math": "self.version",
+                "zendframework/zend-servicemanager": "self.version",
+                "zendframework/zend-session": "self.version",
+                "zendframework/zend-uri": "self.version"
+            },
+            "suggest": {
+                "zendframework/zend-db": "Zend\\Db component",
+                "zendframework/zend-filter": "Zend\\Filter component, required by the Digits validator",
+                "zendframework/zend-i18n": "Zend\\I18n component to allow translation of validation error messages as well as to use the various Date validators",
+                "zendframework/zend-math": "Zend\\Math component",
+                "zendframework/zend-resources": "Translations of validator messages",
+                "zendframework/zend-servicemanager": "Zend\\ServiceManager component to allow using the ValidatorPluginManager and validator chains",
+                "zendframework/zend-session": "Zend\\Session component",
+                "zendframework/zend-uri": "Zend\\Uri component, required by the Uri and Sitemap\\Loc validators"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev",
+                    "dev-develop": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend\\Validator\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "provides a set of commonly needed validators",
+            "keywords": [
+                "validator",
+                "zf2"
+            ],
+            "time": "2014-04-15 15:28:42"
         }
     ],
     "aliases": [],
@@ -3113,8 +2963,7 @@
         "eluceo/ical": 20,
         "jacobkiers/oauth": 20,
         "joshuaestes/feature-toggle": 20,
-        "codeception/codeception": 20,
-        "magento/project-community-edition": 20
+        "codeception/codeception": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
